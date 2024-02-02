@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Happy Valentines's Day Petra!!</title>
+</head>
+
+<body>
+    <!-- <iframe src="silence.mp3" allow="autoplay" id="audio" style="display: none"></iframe> -->
+    <!-- <embed name="Sweeetly" src="Sweeetly.mp3" loop="true" autostart="true" hidden="true"> -->
+    <div class="container">
+        <div class="valentines">
+            <div class="envelope">
+                <div class="card">
+                    <div class="text">
+                        <div class="recipient">
+                            To Petra:
+                        </div>
+                        Happy <br> Valentines's Day&lt;3
+                        <!-- <button onclick="playMP3()">Happy <br> Valentines's Day&lt;3</button> -->
+                        <div class="sender">
+                            Andy
+                        </div>
+                    </div>
+                    <div class="heart"></div>
+                </div>
+            </div>
+            <div class="front"></div>
+        </div>
+    </div>
+    <!-- <audio controls autoplay loop id="sweetlyMP3">
+        <source src="Sweeetly.mp3" type="audio/mp3">
+    </audio> -->
+    <div class="buttons">
+        <button onclick="playMP3()">Play me</button>
+        <button onclick="window.location.href = 'chinese.html';">Chinese ver.</button>
+    </div>
+
+</body>
+
+<script>
+    var audioMP3 = new Audio("C:/Users/andyy/Desktop/Projects/GiftToPetra20240214/Sweeetly.mp3");
+    function playMP3() {
+        audioMP3.play();
+        //console.log("Played")
+    }
+</script>
+
+</html>
