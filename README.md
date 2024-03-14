@@ -1,6 +1,6 @@
 # Valentine's Day card HTML
  Happy Valentine's Day!!
- A webpage sent to your love on Valentine's Day. 
+ A webpage that you can send to your love on Valentine's Day. 
 
 # Reminder
  You can change the names of the recipient and sender in the index.html file as well as change the audio file to be your favorite song or an audio message for your lover <3.
